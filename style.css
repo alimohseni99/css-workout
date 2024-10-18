@@ -25,6 +25,9 @@ p {
   border-radius: 0.5rem;
   font-weight: bold;
 }
+.aside {
+  display: none;
+}
 
 .content-1 {
   grid-column: 1 / 3;
@@ -103,6 +106,7 @@ p {
   }
 
   .aside {
+    display: grid;
     background-color: #ffb3ba;
     grid-row: 1 / 5;
     height: auto;
